@@ -89,6 +89,7 @@ static int myhid_probe(struct hid_device *hdev, const struct hid_device_id *id)
 
 
 	printk(KERN_WARNING "hid-lg: Function %s finished, param=hello world\n", __func__);
+	printk(KERN_INFO "myhid: Device probed successfully\n");
 
 	return 0;
 
