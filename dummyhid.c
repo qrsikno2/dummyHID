@@ -118,6 +118,8 @@ static int myhid_event(struct hid_device *hdev, struct hid_field *field,
 				-value);
 		return 1;
 	}
+	
+	printk(KERN_WARNING "hid-lg: Function %s called, param=hello world\n", __func__);
 
 	return 0;
 }
