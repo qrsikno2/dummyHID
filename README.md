@@ -1,6 +1,8 @@
 # dummyHID
 ## Usage
 
+my name is zhangsan 
+
 0. you may need to install some packages:
 
 In archlinux: 
